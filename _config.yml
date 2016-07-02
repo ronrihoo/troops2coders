@@ -1,0 +1,28 @@
+title: Troops2Coders
+description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+
+url: https://troops2coders.com
+baseurl: ""
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate]
+paginate: 5
+
+navigation:
+ - title: Home
+   url: /index.html
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: operationcode
+   twitter: operation_code
+   facebook: operationcode.org
+   email: jameel@operationcode.org
+
+google_analytics: "..."
